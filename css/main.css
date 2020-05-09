@@ -1,0 +1,105 @@
+/* Палитра цветов */
+/* цвет основного текста - #757575 */
+/* вторичный цвет текста - #212121 */
+/* цвет текста подвала вторичный - rgba(255, 255, 255, 0.6) */
+/* цвет акцента - #2196F3 */
+
+/* основной цвет фона - #ffffff*/
+/* вторичный цвет фона - #F5F4FA */
+/* цвет подвала - #2F303A */
+
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --main-white-color: #ffffff;
+  --sacondary-color: #f5f4fa;
+  --footer-color: #2f303a;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --footer-copyright-color: rgba(255, 255, 255, 0.4);
+}
+
+body {
+  color: var(--main-text-color);
+  background-color: var(--main-white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+/* Шапка */
+.logo {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.logo-style {
+  color: var(--accent-color);
+}
+
+.site-nav {
+  color: var(--main-text-color);
+}
+
+/* Герой */
+.hero-title {
+  color: var(--main-white-color);
+  background-color: grey;
+
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--main-white-color);
+  background-color: var(--accent-color);
+
+  text-decoration: none;
+}
+
+/* Подвал */
+footer {
+  background-color: var(--footer-color);
+}
+
+.logo-footer {
+  color: var(--main-white-color);
+  text-decoration: none;
+}
+
+.footer-text {
+  color: var(--main-white-color);
+}
+
+.footer-contats {
+  color: var(--footer-text-color);
+}
+
+.copyrights {
+  color: var(--footer-copyright-color);
+}
+
+.footer-call {
+  color: var(--main-white-color);
+
+  text-transform: uppercase;
+}
+
+/* Портфолио */
+.description {
+  color: var(--main-text-color);
+}

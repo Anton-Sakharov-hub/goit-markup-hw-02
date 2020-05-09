@@ -3,30 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Portflio</title>
   </head>
   <body>
-    <!-- Шапка Портфолио -->
+    <!-- Шапка -->
     <header>
       <nav>
-        <ul>
-          <li><a href="/">Web Studio</a></li>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="site-nav list">
+          <li>
+            <a href="/" class="logo"
+              ><span class="logo-style">Web</span> Studio</a
+            >
+          </li>
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portflio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
 
-      <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <address class="contact link">
+        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+        <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
       </address>
     </header>
 
     <!-- Основной контейнер -->
     <main>
       <section>
-        <h1>Примеры работ</h1>
+        <h1 class="title">Примеры работ</h1>
         <ul>
           <li><button type="button">Все</button></li>
           <li><button type="button">Веб-сайты</button></li>
@@ -45,8 +50,8 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="title">Технокряк</h2>
+              <p class="description">Веб-сайт</p>
             </a>
           </li>
         </ul>
@@ -55,40 +60,40 @@
             <a href=""
               ><img src="./images-portfolio-page/orlean-vs-golden-stars.jpg"
               alt="два баскетболиста" width: 380px />
-              <h2>Постер New Orlean vs Golden Stars</h2>
-              <p>Дизайн</p>
+              <h2 class="title">Постер New Orlean vs Golden Stars</h2>
+              <p class="description">Дизайн</p>
             </a>
           </li>
           <li>
             <a href=""
               ><img src="./images-portfolio-page/restoran-seafood.jpg"
               alt="морепродукт" width: 380px />
-              <h2>Ресторан Seafood</h2>
-              <p>Приложение</p>
+              <h2 class="title">Ресторан Seafood</h2>
+              <p class="description">Приложение</p>
             </a>
           </li>
           <li>
             <a href=""
               ><img src="./images-portfolio-page/project-prime.jpg"
               alt="наушники" width: 380px />
-              <h2>Проект Prime</h2>
-              <p>Маркетинг</p>
+              <h2 class="title">Проект Prime</h2>
+              <p class="description">Маркетинг</p>
             </a>
           </li>
           <li>
             <a href=""
               ><img src="./images-portfolio-page/project-boxes.jpg" alt="две
               коробки" width: 380px />
-              <h2>Проект Boxes</h2>
-              <p>Приложение</p>
+              <h2 class="title">Проект Boxes</h2>
+              <p class="description">Приложение</p>
             </a>
           </li>
           <li>
             <a href=""
               ><img src="./images-portfolio-page/inspiration-has-no-borders.jpg"
               alt="моноблок" width: 380px />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="title">Inspiration has no Borders</h2>
+              <p class="description">Веб-сайт</p>
             </a>
           </li>
           <li>
@@ -96,24 +101,24 @@
               ><img
               src="./images-portfolio-page/publication-limited-edition.jpg"
               alt="журнал" width: 380px />
-              <h2>Издание Limited Edition</h2>
-              <p>Дизайн</p>
+              <h2 class="title">Издание Limited Edition</h2>
+              <p class="description">Дизайн</p>
             </a>
           </li>
           <li>
             <a href=""
               ><img src="./images-portfolio-page/project-lab.jpg" alt="бирка на
               веревочке" width: 380px />
-              <h2>Проект LAB</h2>
-              <p>Маркетинг</p>
+              <h2 class="title">Проект LAB</h2>
+              <p class="description">Маркетинг</p>
             </a>
           </li>
           <li>
             <a href=""
               ><img src="./images-portfolio-page/groving-business.jpg" alt="руки
               набирают текст на ноутбуке" width: 380px />
-              <h2>Growing Business</h2>
-              <p>Приложение</p>
+              <h2 class="title">Growing Business</h2>
+              <p class="description">Приложение</p>
             </a>
           </li>
         </ul>
@@ -122,14 +127,18 @@
 
     <!-- Подвал -->
     <footer>
-      <a href="/">Web Studio</a>
+      <a href="/" class="logo-footer"
+        ><span class="logo-style">Web</span> Studio</a
+      >
       <address>
-        г. Киев, пр-т Леси Украинки,<br />
-        26 info@example.com<br />
-        +38 099 111 11 11
+        <span class="footer-text">г. Киев, пр-т Леси Украинки,</span><br />
+        <span class="footer-contacts"
+          >26 info@example.com<br />
+          +38 099 111 11 11</span
+        >
       </address>
       <div>
-        <b>присоединяйтесь</b>
+        <b class="footer-call">присоединяйтесь</b>
         <ul>
           <li><a href="">Facebook</a></li>
           <li><a href="">Twitter</a></li>
@@ -137,7 +146,7 @@
           <li><a href="">LinkeIn</a></li>
         </ul>
       </div>
-      <p>2020 | Developed by GoIT Students</p>
+      <p class="copyrights">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
