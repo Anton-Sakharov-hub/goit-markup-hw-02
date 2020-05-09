@@ -22,45 +22,76 @@
 body {
   color: var(--main-text-color);
   background-color: var(--main-white-color);
+
+  font-family: "Roboto", sans-serif;
 }
 
 .list {
   list-style: none;
 }
 
-.link {
-  color: var(--title-text-color);
-  text-decoration: none;
-}
-
-.link:hover,
-.link:focus {
+.link-accent:hover,
+.link-accent:focus {
   color: var(--accent-color);
 }
 
-.title {
+.main-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 /* Шапка */
+
 .logo {
-  color: var(--title-text-color);
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
-.logo-style {
+.logo-blue {
   color: var(--accent-color);
 }
 
-.site-nav {
+.logo-black {
+  color: var(--title-text-color);
+}
+
+.nav-link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contact-link {
   color: var(--main-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 /* Герой */
+
 .hero-title {
   color: var(--main-white-color);
   background-color: grey;
 
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
@@ -69,16 +100,69 @@ body {
   background-color: var(--accent-color);
 
   text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
+/* Секция преимущества */
+
+.advantages-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Секция занятий */
+
+.occupations-list-item {
+  color: var(--main-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+
+.card-title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* Секция постоянные клиенты */
+
 /* Подвал */
+
 footer {
   background-color: var(--footer-color);
 }
 
-.logo-footer {
+.logo-white {
   color: var(--main-white-color);
-  text-decoration: none;
+}
+
+.footer-text,
+.footer-contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer-text {
@@ -96,10 +180,15 @@ footer {
 .footer-call {
   color: var(--main-white-color);
 
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 /* Портфолио */
+
 .description {
   color: var(--main-text-color);
 }
