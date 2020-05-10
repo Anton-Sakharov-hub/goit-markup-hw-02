@@ -26,6 +26,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .list {
   list-style: none;
 }
@@ -108,6 +112,16 @@ body {
 
 /* Секция преимущества */
 
+.advantages-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .advantages-description {
   font-weight: 400;
   font-size: 14px;
@@ -149,7 +163,7 @@ body {
 
 /* Подвал */
 
-footer {
+.footer {
   background-color: var(--footer-color);
 }
 
@@ -189,6 +203,30 @@ footer {
 
 /* Портфолио */
 
-.description {
+.subject-list {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.work-examples .description {
   color: var(--main-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+.filter {
+  background-color: #f5f4fa;
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--accent-color);
+  color: var(--main-white-color);
 }
